@@ -1,0 +1,31 @@
+/* src/components/BlogList.css */
+.blog-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow posts to wrap to the next row */
+    gap: 20px; /* Space between posts */
+  }
+  
+  .blog-post {
+    border: 1px solid #ccc;
+    padding: 50px;
+    flex: 1 0 calc(50% - 50px); /* Adjust for 2 columns with some margin */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: #f9f9f9; /* Light background for better visibility */
+    border-radius: 10px; /* Rounded corners */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+  }
+  
+  .blog-post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+
+  
+  /* src/components/BlogPost.css */
+.button-container {
+    margin-top: 10px; /* Space above buttons */
+  }
+  
+  button {
+    margin-right: 10px; /* Space between buttons */
+  }
+  
